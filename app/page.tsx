@@ -15,7 +15,7 @@ export default function AssetManagementLanding() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
               <div className="flex-shrink-0">
-                <h1 className="text-2xl font-black text-primary">Oloip Asset Management System</h1>
+                <h1 className="text-2xl font-black text-primary">Oloip Asset Management Solution</h1>
               </div>
             </div>
             <div className="hidden md:block">
@@ -155,7 +155,7 @@ export default function AssetManagementLanding() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl md:text-4xl font-black text-foreground mb-6">Why Choose ITAssetPro?</h2>
+              <h2 className="text-3xl md:text-4xl font-black text-foreground mb-6">Why Choose Oloip Asset Management Solution?</h2>
               <p className="text-lg text-muted-foreground mb-6 leading-relaxed">
                 With over 15 years of experience in IT asset management, we provide enterprise-grade solutions that help
                 organizations optimize their technology investments and maintain security compliance.
@@ -191,11 +191,13 @@ export default function AssetManagementLanding() {
               </div>
             </div>
             <div className="relative">
+             <picture>
               <img
                 src="/placeholder-uwwia.png"
                 alt="IT professionals managing technology assets"
                 className="rounded-lg shadow-xl"
               />
+             </picture>
             </div>
           </div>
         </div>
@@ -217,8 +219,8 @@ export default function AssetManagementLanding() {
                   ))}
                 </div>
                 <p className="text-muted-foreground mb-4 italic">
-                  "ITAssetPro transformed our IT operations. We now have complete visibility of our infrastructure and
-                  reduced our software licensing costs by 30%."
+                  &quot;ITAssetPro transformed our IT operations. We now have complete visibility of our infrastructure and
+                  reduced our software licensing costs by 30%.&quot;
                 </p>
                 <div>
                   <p className="font-semibold text-foreground">David Martinez</p>
@@ -234,8 +236,8 @@ export default function AssetManagementLanding() {
                   ))}
                 </div>
                 <p className="text-muted-foreground mb-4 italic">
-                  "The automated discovery feature saved us weeks of manual inventory work. Compliance reporting is now
-                  effortless and accurate."
+                  &quot;The automated discovery feature saved us weeks of manual inventory work. Compliance reporting is now
+                  effortless and accurate.&quot;
                 </p>
                 <div>
                   <p className="font-semibold text-foreground">Lisa Chen</p>
@@ -251,8 +253,8 @@ export default function AssetManagementLanding() {
                   ))}
                 </div>
                 <p className="text-muted-foreground mb-4 italic">
-                  "Excellent platform with outstanding support. The lifecycle management features help us plan hardware
-                  refreshes and budget more effectively."
+                  &quot;Excellent platform with outstanding support. The lifecycle management features help us plan hardware
+                  refreshes and budget more effectively.&quot;
                 </p>
                 <div>
                   <p className="font-semibold text-foreground">James Wilson</p>
@@ -277,7 +279,7 @@ export default function AssetManagementLanding() {
             <CardHeader>
               <CardTitle className="text-2xl text-center">Request Your Demo</CardTitle>
               <CardDescription className="text-center">
-                Fill out the form below and we'll schedule a personalized demonstration
+                Fill out the form below and we&apos;ll schedule a personalized demonstration
               </CardDescription>
             </CardHeader>
             <CardContent>

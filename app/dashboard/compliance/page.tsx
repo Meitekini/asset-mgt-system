@@ -230,7 +230,7 @@ export default function CompliancePage() {
               </div>
               <div>
                 <Label htmlFor="category">Category</Label>
-                <Select>
+                <Select value={selectedCategory} onValueChange={setSelectedCategory}>
                   <SelectTrigger>
                     <SelectValue placeholder="Select category" />
                   </SelectTrigger>
