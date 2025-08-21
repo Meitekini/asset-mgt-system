@@ -10,7 +10,7 @@ import { useState } from "react"
 const navigationItems = [
   {
     name: "Dashboard",
-    href: "/dasboard",
+    href: "/dashboard",
     icon: BarChart3,
   },
   {
