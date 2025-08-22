@@ -47,7 +47,7 @@ html {
       </head>
     
       <body>
-          <Navigation />
+         
         <main>
         {children}
         </main>

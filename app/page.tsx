@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Monitor, Shield, BarChart3, Star, ArrowRight, CheckCircle, Server, HardDrive } from "lucide-react"
 import Footer from "@/components/footer/footer"
+import Link from "next/link"
 
 export default function AssetManagementLanding() {
   return (
@@ -34,8 +35,9 @@ export default function AssetManagementLanding() {
                 </a>
               </div>
             </div>
-            <Button variant="default" className="bg-accent hover:bg-accent/90">
-              Get Started
+            <Button variant="default" className="bg-accent hover:bg-accent/90" asChild>
+            <Link href="/dashboard"> Admin Dashboard</Link>
+            
             </Button>
           </div>
         </div>

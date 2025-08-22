@@ -124,25 +124,25 @@ export default function AdminDashboard() {
           </CardHeader>
           <CardContent>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-              <Link href="/hardware">
+              <Link href="/dashboard/hardware">
                 <Button variant="outline" className="w-full h-20 flex flex-col gap-2 bg-transparent">
                   <Plus className="h-5 w-5" />
                   Add Hardware
                 </Button>
               </Link>
-              <Link href="/software">
+              <Link href="/dashboard/software">
                 <Button variant="outline" className="w-full h-20 flex flex-col gap-2 bg-transparent">
                   <Shield className="h-5 w-5" />
                   Manage Licenses
                 </Button>
               </Link>
-              <Link href="/users">
+              <Link href="/dashboard/users">
                 <Button variant="outline" className="w-full h-20 flex flex-col gap-2 bg-transparent">
                   <Users className="h-5 w-5" />
                   User Management
                 </Button>
               </Link>
-              <Link href="/compliance">
+              <Link href="/dashboard/compliance">
                 <Button variant="outline" className="w-full h-20 flex flex-col gap-2 bg-transparent">
                   <Eye className="h-5 w-5" />
                   View Reports
