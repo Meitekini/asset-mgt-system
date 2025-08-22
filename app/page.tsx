@@ -60,9 +60,11 @@ export default function AssetManagementLanding() {
               digital infrastructure across your entire organization.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-4 text-lg">
-                Start Free Trial
+              <Button size="lg" className="bg-accent hover:bg-accent/90 text-accent-foreground px-8 py-4 text-lg" asChild>
+                <Link href={"/auth/sign-in"}>
+                  Start Free Trial
                 <ArrowRight className="ml-2 h-5 w-5" />
+                </Link>
               </Button>
               <Button size="lg" variant="outline" className="px-8 py-4 text-lg bg-transparent">
                 Request Demo
